@@ -19,3 +19,7 @@ chmod 700 $HOME/.scripts/*
 cp -f .config/hypr/* $HOME/.config/hypr/
 chown $USER:$USER $HOME/.config/hypr/*
 chmod 600 $HOME/.config/hypr/*
+
+cp -f .config/wofi/* $HOME/.config/wofi/
+chown $USER:$USER $HOME/.config/wofi/*
+chmod 600 $HOME/.config/wofi/*
