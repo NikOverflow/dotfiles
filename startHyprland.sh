@@ -2,9 +2,9 @@
 
 kill_process() {
     process_name="$1"
-    process_id="$(ps -eo pid,cmd | awk -v pname="$process_name" '$0 ~ pname && !/awk/ {print $1}')"
+    process_id="$(pidof -s '$process_name')"
     kill -TERM "$process_id" 2> /dev/null
-    while ps -p "$process_id" > /dev/null; do true; done
+    while ps -eo pid | grep "$process_id" > /dev/null; do true; done
 }
 
 Hyprland
