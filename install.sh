@@ -2,7 +2,7 @@
 scriptPath="$(dirname $0)"
 cd "$scriptPath/"
 
-mkdir -pm 700 $HOME/Pictures $HOME/.config/{hypr, wofi}
+mkdir -pm 700 $HOME/Pictures $HOME/.config/hypr $HOME/.config/wofi
 
 cp -f Pictures/Wallpaper.png $HOME/Pictures/Wallpaper.png
 chown $USER:$USER $HOME/Pictures/Wallpaper.png
