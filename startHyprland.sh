@@ -3,7 +3,7 @@
 kill_process() {
     process_id="$(pidof -s '$1')"
     pkill -f "$1"
-    waitpid "$process_id"
+    waitpid "$process_id" 2> /dev/null
 }
 
 Hyprland
