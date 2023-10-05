@@ -14,3 +14,5 @@ setopt appendhistory
 setopt autocd
 
 eval "$(starship init zsh)"
+echo ""
+neofetch
