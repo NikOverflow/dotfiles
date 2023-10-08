@@ -6,6 +6,6 @@ kill_process() {
     waitpid "$process_id" 2> /dev/null
 }
 
-Hyprland
+LIBSEAT_BACKEND=logind Hyprland > /dev/null
 kill_process "hyprpaper"
 kill_process "polkit-kde-authentication-agent-1"

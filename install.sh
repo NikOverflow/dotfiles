@@ -16,6 +16,10 @@ cp -f .zshrc $HOME/.zshrc
 chown $USER:$USER $HOME/.zshrc
 chmod 600 $HOME/.zshrc
 
+cp -f .zlogin $HOME/.zlogin
+chown $USER:$USER $HOME/.zlogin
+chmod 600 $HOME/.zlogin
+
 cp -f .scripts/* $HOME/.scripts/
 chown $USER:$USER $HOME/.scripts/*
 chmod 700 $HOME/.scripts/*
