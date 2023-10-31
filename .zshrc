@@ -2,6 +2,7 @@ export PATH="/usr/bin:/usr/local/bin"
 export WORDCHARS="_"
 export EDITOR="nvim"
 export VISUAL="nvim"
+export SUDO_PROMPT="Enter the flag for %u: "
 
 alias ls="eza --color always --icons --group-directories-first --git -h"
 

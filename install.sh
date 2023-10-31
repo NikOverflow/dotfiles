@@ -8,10 +8,6 @@ cp -f Pictures/Wallpaper.png $HOME/Pictures/Wallpaper.png
 chown $USER:$USER $HOME/Pictures/Wallpaper.png
 chmod 600 $HOME/Pictures/Wallpaper.png
 
-cp -f startHyprland.sh $HOME/startHyprland.sh
-chown $USER:$USER $HOME/startHyprland.sh
-chmod 700 $HOME/startHyprland.sh
-
 cp -f .zshrc $HOME/.zshrc
 chown $USER:$USER $HOME/.zshrc
 chmod 600 $HOME/.zshrc
